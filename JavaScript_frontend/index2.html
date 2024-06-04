@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stye.css">
+</head>
+ 
+<body>
+    <h2 class="titulo">Testando o Javascript</h2>
+ 
+    <p id="texto"> </p>
+ 
+    <button type="button" onclick="document.getElementById('texto').innerHTML= Date()">Mostra Data</button>
+    <!--Utiliza o javascript para modificar o HTML -->
+ 
+    <p id="texto2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, nobis commodi? Ad harum corporis maxime repellat
+        hic possimus natus praesentium quidem a fugiat nihil magni, quasi omnis quibusdam! Vero, sapiente!
+    </p>
+ 
+    <button type="button" onclick="document.getElementById('texto2').style.display= 'none'">Ocultar</button>
+    <!--Utiliza o javascript para modificar o CSS -->
+    <button type="button" onclick="document.getElementById('texto2').style.display= 'block'">Revelar</button>
+ 
+    <img id="imagem">
+    <button type="button" onclick="document.getElementById('imagem').src = './in.jpg'">Imagem</button>
+    </img>
+    <img id="imagem2">
+    <button type="button" onclick="document.getElementById('imagem').src = ''">Ocultar</button>
+    </img>
+ 
+ 
+    <script src="./script.js"></script>
+</body>
+ 
+</html>
